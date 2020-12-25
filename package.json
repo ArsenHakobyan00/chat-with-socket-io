@@ -13,5 +13,13 @@
         "express": "*",
         "nodemon": "^2.0.6",
         "socket.io": "*"
-    }
+    },
+    "keywords": [
+        "socket.io",
+        "express",
+        "node",
+        "nodemon",
+        "chat",
+        "chat demo"
+    ]
 }
