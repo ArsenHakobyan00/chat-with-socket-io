@@ -1,0 +1,13 @@
+{
+    "name": "trickytricks-card-game-with-chat",
+    "description": "TrickyTricks is a card game of taking tricks that has a chat functionality",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "*",
+        "nodemon": "^2.0.6",
+        "socket.io": "*"
+    }
+}

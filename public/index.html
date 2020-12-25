@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Welcome to TrickyTricks Chat</title>
+  </head>
+  <body>
+    <div class="tricky-form-container">
+      <div class="tricky-form">
+        <h1>TrickyTricks</h1>
+        <form id="username-form">
+          <label for="username" class="username-lbl">Username:</label><span class="explanation-btn"></span><br />
+          <input type="text" name="username" id="username" placeholder="Enter a username" /><br />
+          <button type="submit" class="btn-submit">JOIN</button>
+          <div class="explanation-box">No spaces are allowed in your username</div>
+        </form>
+      </div>
+    </div>
+
+    <div class="chatArea">
+      <div class="currentUsers">Users on this server: <span id="numUsers">0</span></div>
+      <div class="currentUsers">Current user: <span id="currentUser"></span></div>
+      <!-- CHAT -->
+      <button type="button" class="btnOpen">CHAT</button>
+      <div class="chat">
+        <div class="messages"></div>
+        <form id="msg-form">
+          <input type="text" class="msg-input" placeholder="Type your message here..." /><button type="button" id="changeColor">color</button> <button type="submit" class="btn btnSend">SEND</button
+          ><button type="button" class="btn btnClose">CLOSE</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js/"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
