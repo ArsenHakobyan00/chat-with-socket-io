@@ -8,14 +8,11 @@ How to install this repository:
 
 In order to make this project work you would also need to install all the dependences from your CLI.
 
-To do that, simply run:
-```
-npm install
-```
+To do that, simply run: ```npm install```
 
-To start the project, simply do:
-``` npm start ```
+To start the project, simply do: ``` npm start ```
 
+Demo: 
 
 Dependences used:
 
