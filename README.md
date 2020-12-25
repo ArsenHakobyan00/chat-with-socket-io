@@ -14,7 +14,7 @@ To do that, simply run: ```npm install``` or ``` npm i ```
 
 To start the project, simply do: ``` npm start ```
 
-Demo: <https://repl.it/@ArsenHakobyan00/chat-with-socket-io> (you'd want to open it in a new page as I was a bit lazy to make it responsive 😋)
+Demo: <https://repl.it/@ArsenHakobyan00/chat-with-socket-io> (you may want to open it in a new page as I was a bit lazy to make it responsive 😋)
 
 Dependences used:
 
