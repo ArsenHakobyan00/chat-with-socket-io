@@ -1,6 +1,10 @@
 {
     "name": "chat-with-socket-io",
     "description": "A chat built with node, express and socket.io",
+    "author": {
+        "name": "Arsen Hakobyan",
+        "email": "arsen.hak01@gmail.com"
+    },
     "version": "0.0.1",
     "scripts": {
         "start": "nodemon server.js"
