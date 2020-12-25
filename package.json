@@ -1,6 +1,6 @@
 {
-    "name": "trickytricks-card-game-with-chat",
-    "description": "TrickyTricks is a card game of taking tricks that has a chat functionality",
+    "name": "chat-with-socket-io",
+    "description": "A chat built with node, express and socket.io",
     "version": "0.0.1",
     "scripts": {
         "start": "nodemon server.js"
