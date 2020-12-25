@@ -23,7 +23,8 @@ To start the project, simply do: ``` npm start ```
 
 <https://repl.it/@ArsenHakobyan00/chat-with-socket-io> 
 
-Dependences used:
+
+## Dependences used:
 
 - express
 - nodemon
