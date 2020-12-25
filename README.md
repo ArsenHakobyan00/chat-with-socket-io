@@ -8,11 +8,11 @@ How to install this repository:
 
 In order to make this project work you would also need to install all the dependences from your CLI.
 
-To do that, simply run: ```npm install```
+To do that, simply run: ```npm install``` or ``` npm i ```
 
 To start the project, simply do: ``` npm start ```
 
-Demo: 
+Demo: <https://repl.it/@ArsenHakobyan00/chat-with-socket-io>
 
 Dependences used:
 
